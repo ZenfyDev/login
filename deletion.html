@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ysabeau+SC:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/deletion.css">
+  </head>
+  <body>
+    <h1>😥We are sad that we are seeing you leave😥</h1>
+
+    <h2>Please help us understand by taking this short survey</h2>
+
+    <h2 id="deleteAlertHTML" class="deleteAlert">placeholder</h2>
+
+    <form id="feedback">
+
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <h3 id="formQuestion">
+        Provide a reason of why you are requesting account deletion
+      </h3>
+
+      <input type="text" id="reasonInput" placeholder="Enter a reason why" />
+
+      <h3 id="formQuestion">What can we do to fix that</h3>
+
+      <input type="text" id="fixInput" placeholder="Enter a way to fix our
+      mistakes" der-radius: 10px; />
+
+      <input type="submit" />
+
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script type="module" src="js/db.js"></script>
+    <script type="module" src="js/deletion.js"></script>
+
+
+  </body>
+</html>
